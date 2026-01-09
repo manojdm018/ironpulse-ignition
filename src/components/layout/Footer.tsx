@@ -35,13 +35,18 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <Zap className="w-6 h-6 text-primary-foreground" />
+            <Link to="/" className="flex items-center gap-3 mb-6 group">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center group-hover:shadow-[0_0_30px_hsl(120_100%_50%/0.6)] transition-all duration-300">
+                <Zap className="w-7 h-7 text-primary-foreground drop-shadow-lg" />
               </div>
-              <span className="font-display text-xl tracking-wider">
-                Mad Over <span className="text-primary">Fitness</span>
-              </span>
+              <div className="flex flex-col leading-none">
+                <span className="font-display text-2xl font-bold tracking-tight">
+                  MAD OVER
+                </span>
+                <span className="font-display text-lg font-bold tracking-[0.3em] text-primary">
+                  FITNESS
+                </span>
+              </div>
             </Link>
             <p className="text-muted-foreground mb-6">
               Transform your body, elevate your mind. Premium fitness training for those who demand excellence.

@@ -34,13 +34,18 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center group-hover:shadow-[0_0_20px_hsl(120_100%_50%/0.5)] transition-shadow duration-300">
-            <Zap className="w-6 h-6 text-primary-foreground" />
+        <Link to="/" className="flex items-center gap-3 group">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center group-hover:shadow-[0_0_30px_hsl(120_100%_50%/0.6)] transition-all duration-300 group-hover:scale-105">
+            <Zap className="w-7 h-7 text-primary-foreground drop-shadow-lg" />
           </div>
-          <span className="font-display text-xl tracking-wider text-foreground">
-            Mad Over <span className="text-primary">Fitness</span>
-          </span>
+          <div className="flex flex-col leading-none">
+            <span className="font-display text-2xl md:text-3xl font-bold tracking-tight text-foreground">
+              MAD OVER
+            </span>
+            <span className="font-display text-lg md:text-xl font-bold tracking-[0.3em] text-primary drop-shadow-[0_0_10px_hsl(120_100%_50%/0.5)]">
+              FITNESS
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
