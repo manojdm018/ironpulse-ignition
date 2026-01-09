@@ -39,8 +39,8 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
                 <Zap className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="font-display text-2xl tracking-widest">
-                IRON<span className="text-primary">PULSE</span>
+              <span className="font-display text-xl tracking-wider">
+                Mad Over <span className="text-primary">Fitness</span>
               </span>
             </Link>
             <p className="text-muted-foreground mb-6">
@@ -112,7 +112,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">hello@ironpulse.fit</span>
+                <span className="text-muted-foreground">hello@madoverfitness.com</span>
               </li>
             </ul>
           </div>
@@ -122,7 +122,7 @@ export const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-border/50">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2024 IRONPULSE. All rights reserved.</p>
+          <p>© 2024 Mad Over Fitness. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>

@@ -38,8 +38,8 @@ export const Navbar = () => {
           <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center group-hover:shadow-[0_0_20px_hsl(120_100%_50%/0.5)] transition-shadow duration-300">
             <Zap className="w-6 h-6 text-primary-foreground" />
           </div>
-          <span className="font-display text-2xl tracking-widest text-foreground">
-            IRON<span className="text-primary">PULSE</span>
+          <span className="font-display text-xl tracking-wider text-foreground">
+            Mad Over <span className="text-primary">Fitness</span>
           </span>
         </Link>
 
